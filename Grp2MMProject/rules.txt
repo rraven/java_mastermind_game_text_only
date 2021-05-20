@@ -1,0 +1,44 @@
+
+Mastermind Game Rules
+
+The goal is to figure out the 3 color code chosen by the computer.
+The computer randomly selects a 3 color code from 5 color options
+(Red/Blue/White/Yellow/Green). There can be duplicates.
+Examples of computer codes: W W B (white white blue) or R B Y (red blue yellow)
+
+The player has 10 guesses to break the code.
+The player enters a code guess with the 3 letters of the colors.
+The player might enter B B B or Y B W or any other combination.
+
+If the player's guess matches the computer's code, they win.
+Otherwise, the computer compares the codes and provides feedback:
+It displays 3 pins, either R (red pin), W (white pin) or O (no pin).
+
+If the player has the right color in the right position, an R is shown.
+If the player has the right color in the wrong position, a W is shown.
+If the player has neither the right color or position, an O is shown.
+
+The position of the R, W or O in the Pin Feedback doesn't indicate the
+location. All Rs are listed before all Ws and then the Os are listed.
+
+Some examples:
+Computer's Code	Player's Guess	Pin Feedback
+R W Y		R W Y		R R R
+Y Y Y		B G B		O O O
+G B G		B G G		R W O
+W G Y		Y W R		W W O
+B B B		G B B		R R O
+Y G R		R Y G		O O O
+
+A sample game:
+
+Player's Guess	Pin Feedback	 
+B B B		R O O		 
+B Y Y		W O O		 
+W B W		R R O		 
+W B G		R W O		 
+R B W		R R R		 
+
+
+
+
