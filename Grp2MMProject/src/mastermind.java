@@ -51,8 +51,8 @@ import java.util.Random; // for random number
  *     
  * menu choice as int | launch menu choice       | none
  * name as String     | store name with score    | display with score
- * guess as String    | compare w/code		     | provide pincode feedback
- * 					  | determine win/lose       | provide win/lose feedback	
+ * guess as String    | compare w/code	         | provide pincode feedback
+ * 		      | determine win/lose       | provide win/lose feedback	
  * 
  * @author rraven
  *
